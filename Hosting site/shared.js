@@ -4,7 +4,7 @@ var modalNoButton = document.querySelector(".modal__action--negative");
 var selectPlanButtons = document.querySelectorAll(".plan button");
 var toggleButton = document.querySelector(".toggle-button");
 var mobileNav = document.querySelector(".mobile-nav");
-var ctaButton = document.querySelector("main-nav__item--cta")
+var ctaButton = document.querySelector("main-nav__item--cta");
 
 // console.dir(backdrop.style['background-image']);
 
@@ -29,7 +29,7 @@ backdrop.addEventListener("click", function() {
 });
 
 if (modalNoButton) {
-  modalNoButton.addEventListener("click", closeModal);
+  modalNoButton.addEventListener("click", closeModal());
 }
 
 function closeModal() {
