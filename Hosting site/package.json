@@ -1,0 +1,16 @@
+{
+  "name": "hosting-site",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "Pinzaru Andreea",
+  "licene": "ISC",
+  "description": "",
+  "main": "shared.js",
+  "devDependencies": {},
+  "license": "ISC"
+}
